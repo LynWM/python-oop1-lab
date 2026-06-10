@@ -14,7 +14,7 @@ class Coffee:
         if size in ["Small", "Medium", "Large"]:
             self._size = size
         else:
-            raise ValueError("size must be Small, Medium, or Large")
+            print("size must be Small, Medium, or Large")
 
     def tip(self):
         print("This coffee is great, here's a tip!")
